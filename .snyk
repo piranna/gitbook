@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - gitbook-plugin-sharing > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
+    - gitbook-parsers > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
+    - gitbook-parsers > gitbook-markdown > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
+    - gitbook-parsers > gitbook-restructuredtext > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
+    - gitbook-parsers > gitbook-asciidoc > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
+    - gitbook-parsers > gitbook-restructuredtext > cheerio > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
+    - gitbook-parsers > gitbook-asciidoc > cheerio > lodash:
+        patched: '2019-04-10T08:54:03.537Z'
